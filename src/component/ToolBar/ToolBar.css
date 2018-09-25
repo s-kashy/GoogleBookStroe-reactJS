@@ -1,0 +1,31 @@
+.Toolbar {
+  height: 56px;
+  width: 100%;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  z-index: 90;
+  background: lightblue;
+}
+
+/* .Toolbar nav {
+  height: 100%;
+} */
+.Title {
+  margin: 0 auto;
+}
+.Buttom {
+  margin: 0 auto;
+  align-items: center;
+}
+@media screen and (max-width:450px){
+  .Toolbar {
+    margin-bottom: 10%;
+    height: 100%;
+    flex-direction: column;
+    background: lightblue;
+    justify-content: center;
+  }
+
+}

@@ -1,0 +1,9 @@
+.Title {
+  float: left;
+  font-family: Georgia, serif;
+  font-size: 25px;
+  margin: 12px auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,27 @@
+.contactData {
+  margin: 70px auto;
+  width: 80%;
+  text-align: center;
+  /* box-shadow: 5px 10px 18px #888888; */
+  padding: 3px;
+}
+form {
+  margin: auto;
+  border: 1px solid black;
+  width: 80%;
+}
+
+BtnBorder {
+  border: 1px solid black;
+}
+.InputElement {
+  outline: none;
+
+  font: inherit;
+  background-color: white;
+  /* padding: 6px; */
+  width: 100%;
+  margin: auto;
+  outline: none;
+  box-sizing: border-box;
+}

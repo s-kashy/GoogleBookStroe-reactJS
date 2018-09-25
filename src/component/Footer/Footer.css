@@ -1,0 +1,25 @@
+.Footer {
+  height: 56px;
+  width: 100%;
+  margin: 30px auto;
+  display: flex;
+  text-align: center;
+
+  justify-content: center;
+  z-index: 90;
+  background: lightblue;
+}
+
+p {
+  margin: 15px;
+}
+@media screen and (max-width: 450px) {
+  .Footer {
+    margin-top: 22%;
+    height: 100%;
+    -webkit-flex-direction: row;
+    flex-direction: column;
+    background: lightblue;
+    justify-content: center;
+  }
+}

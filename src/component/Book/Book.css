@@ -1,0 +1,20 @@
+.Book {
+  width: 250px;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #eee;
+  box-shadow: 10px 12px 3px #ccc;
+  margin: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.Book:hover,
+.Book:active {
+  background-color: #c0ddf5;
+}
+
+.Author {
+  margin: 16px 0;
+  color: chocolate
+}
