@@ -5,9 +5,9 @@ var _ = require("lodash");
 export const validationInit = (key, str) => {
   switch (key) {
     case "title":
-      return isEmptyCheckerAndIfString(str);
+      return isEmptyCheckerAndIfString(str,key);
     case "author":
-      return isEmptyCheckerAndIfString(str);
+      return isEmptyCheckerAndIfString(str,key);
     case "date":
       return isDateValidation(str);
     case "id":
@@ -17,11 +17,11 @@ export const validationInit = (key, str) => {
   }
 };
 
-export const isEmptyCheckerAndIfString = str => {
+export const isEmptyCheckerAndIfString = (str,key) => {
   if (_.trim(str) === "" || str === undefined || str === null) {
     return msgType.MUST_HAVE_INPUT;
   }
-  if (!typeof _.trim(str) === "string") {
+  if (!isNaN(str)&& key==="author") {
     return msgType.MUST_BE_A_STRING;
   }
   return null;
